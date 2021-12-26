@@ -1,0 +1,236 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4792978000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUP()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should navigate to page sucessfully",
+        "description": "",
+        "id": "jetform-test;user-should-navigate-to-page-sucessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 755208900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 82292800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am On homepage",
+            "match": {
+              "location": "JetFormSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116311500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter firstname",
+            "match": {
+              "location": "JetFormSteps.iEnterFirstname()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63344500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter lastname",
+            "match": {
+              "location": "JetFormSteps.iEnterLastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59075000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Next Button",
+            "match": {
+              "location": "JetFormSteps.iClickOnNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60690800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I can Download File",
+            "match": {
+              "location": "JetFormSteps.iCanDownloadFile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65157900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on next Button",
+            "match": {
+              "location": "JetFormSteps.iClickOnnextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13121874600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Write On My signature",
+            "match": {
+              "location": "JetFormSteps.iWriteOnMySignature()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77159000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on next button",
+            "match": {
+              "location": "JetFormSteps.iClickOnnextbutton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 96147200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "selects the security question \"Favourite pet\u0027s name\" from the dropdown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Favourite pet\u0027s name",
+                  "offset": 31
+                }
+              ],
+              "location": "JetFormSteps.selectsTheSecurityQuestionFromTheDropdown(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63973900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "answers the security question \"Puppy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Puppy",
+                  "offset": 31
+                }
+              ],
+              "location": "JetFormSteps.answersTheSecurityQuestion(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45411600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click on next button",
+            "match": {
+              "location": "JetFormSteps.iClickonNextButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47163900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click On Last Button",
+            "match": {
+              "location": "JetFormSteps.iClickOnLastButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47998100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click On Submit Button",
+            "match": {
+              "location": "JetFormSteps.iClickOnSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1387229800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verifies that the submission has been received \"Your submission has been received.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Your submission has been received.",
+                  "offset": 48
+                }
+              ],
+              "location": "JetFormSteps.verifiesThatTheSubmissionHasBeenReceived(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Jetform Test",
+    "description": "\r\nAs user I want to submit form into jetform website",
+    "id": "jetform-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/jetform.feature"
+  }
+]
